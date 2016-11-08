@@ -229,6 +229,18 @@ Shift-Up/Down
 Alt-Up/Down
 
 *** 如何自定义tag                                                     :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       d0dedb8a-824b-4b72-8c38-74356bb6e0e2
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:36]
+    :END:
 
 13
 **** Answer
@@ -236,6 +248,18 @@ Alt-Up/Down
 文件开头加入#+TAGS: @work(w)，需要重新加载一次文件，使生效
 
 *** 如何查找tag                                                       :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       5c7b5111-bdd0-4b5d-9bfb-c84d32a9dff4
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:35]
+    :END:
 
 14
 **** Answer
@@ -243,6 +267,18 @@ Alt-Up/Down
 C-c / m
 
 *** 如何将org文件加入agenda file中                                    :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       3f3f71c3-fa47-4002-a2b4-4c3c51ec26b8
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:33]
+    :END:
 
 15
 **** Answer
@@ -250,6 +286,18 @@ C-c / m
 C-c [
 
 *** 如何查看所有todo的任务                                            :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       a98095ad-6151-40ea-8201-d5cc9d067b69
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:34]
+    :END:
 
 16
 **** Answer
@@ -257,6 +305,19 @@ C-c [
 C-c a t
 
 *** 开启错误调试模式                                                  :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       fa5e9a12-e875-4db7-b6e5-a3d3ff23271a
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:34]
+    :END:
+
 出错后可打印backtrace
 
 **** Answer
@@ -268,6 +329,19 @@ tt
 
 * compile
 *** 怎样做代码的静态检查                                              :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       71ef7a31-ab08-4758-a73a-4f8612efb8b3
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:34]
+    :END:
+
 clang
 
 **** Answer
@@ -275,5 +349,106 @@ scan-build
 
 **** note
 scan-build -o memleak gcc test.c -o m
+
+
+*** makefile 1                                                        :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       8699e19f-56f6-4f20-9772-674f33b30af0
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:35]
+    :END:
+
+$@的含义
+
+**** Answer
+目标文件
+     
+*** makfile  2                                                        :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       68bfb8bf-7bf7-40ef-a9af-113d04bc6039
+    :DRILL_LAST_INTERVAL: 3.86
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 3.0
+    :DRILL_EASE: 2.36
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:34]
+    :END:
+
+$^的含义
+**** Answer
+依赖文件
+
+*** makefile 3                                                       :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       fe98e828-9cb3-44d9-8922-98f15d755814
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:35]
+    :END:
+
+$<的含义
+**** Answer
+第一个依赖文件
+
+*** makefile 4                                                        :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       f1e20f81-8b71-46d2-ae3b-f0f931ae71cd
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:33]
+    :END:
+
+.PHONY的含义
+**** Answer
+***** 指定目标不是一个实际的文件，而仅仅是想执行一些命令
+***** 有优化作用
+
+**** note
+.PHONY: clean
+clean:
+    rm *.o -rf
+
+*** makefile 5                                                        :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       af9df27a-0bf1-445a-9b67-76e661be218d
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 19:34]
+    :END:
+
+Makefile如何打印信息及错误终止
+**** Answer
+$(warning xxxx)
+$(error stoping)
+
+**** note
 
 
