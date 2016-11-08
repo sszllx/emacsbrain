@@ -1,0 +1,268 @@
+# -*- mode: org; coding: utf-8 -*-
+#+STARTUP: showall
+
+* org
+
+** tag
+
+*** how to create tag                                                 :drill:
+    SCHEDULED: <2016-11-19 六>
+    :PROPERTIES:
+    :ID:       1ae0928a-3eb9-47cd-bb4d-17c250d01dd1
+    :DRILL_LAST_INTERVAL: 11.1407
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 3.333
+    :DRILL_EASE: 2.7
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 07:50]
+    :END:
+1
+**** Answser
+
+C-c C-c
+
+*** 定制任务状态                                                      :drill:
+    SCHEDULED: <2016-11-17 四>
+    :PROPERTIES:
+    :ID:       e83a328f-f256-494e-b72c-f3b35ca8af62
+    :DRILL_LAST_INTERVAL: 8.7892
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 3
+    :DRILL_FAILURE_COUNT: 1
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.22
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 07:51]
+    :END:
+2
+**** Answser
+
+文件头插入：
+#+SEQ_TODO: TODO(T!) | DONE(D@)3  CANCELED(C@/!)
+
+*** 任务状态切换时出发的标志
+
+**** !的作用                                                          :drill:
+     SCHEDULED: <2016-11-17 四>
+     :PROPERTIES:
+     :ID:       4c0cb501-d8e1-4836-8daf-03f0ad9899b6
+     :DRILL_LAST_INTERVAL: 9.1096
+     :DRILL_REPEATS_SINCE_FAIL: 3
+     :DRILL_TOTAL_REPEATS: 3
+     :DRILL_FAILURE_COUNT: 1
+     :DRILL_AVERAGE_QUALITY: 2.333
+     :DRILL_EASE: 2.36
+     :DRILL_LAST_QUALITY: 4
+     :DRILL_LAST_REVIEWED: [2016-11-08 二 07:50]
+     :END:
+3
+***** Answser
+
+切换到该状态时会自动增加时间戳
+
+**** @的作用                                                          :drill:
+     SCHEDULED: <2016-11-12 六>
+     :PROPERTIES:
+     :ID:       dcc03a96-b1ff-4f30-bab6-453916b253c7
+     :DRILL_LAST_INTERVAL: 4.0
+     :DRILL_REPEATS_SINCE_FAIL: 2
+     :DRILL_TOTAL_REPEATS: 8
+     :DRILL_FAILURE_COUNT: 6
+     :DRILL_AVERAGE_QUALITY: 2.125
+     :DRILL_EASE: 2.36
+     :DRILL_LAST_QUALITY: 4
+     :DRILL_LAST_REVIEWED: [2016-11-08 二 07:52]
+     :END:
+4
+***** Answser
+
+切换到该状态时要求输入文字说明
+
+**** 如果同时设定@和！需要怎样处理                                    :drill:
+     SCHEDULED: <2016-11-19 六>
+     :PROPERTIES:
+     :ID:       3f870ca5-9422-47fb-8fba-222bcc102929
+     :DRILL_LAST_INTERVAL: 10.764
+     :DRILL_REPEATS_SINCE_FAIL: 3
+     :DRILL_TOTAL_REPEATS: 3
+     :DRILL_FAILURE_COUNT: 1
+     :DRILL_AVERAGE_QUALITY: 3.0
+     :DRILL_EASE: 2.6
+     :DRILL_LAST_QUALITY: 4
+     :DRILL_LAST_REVIEWED: [2016-11-08 二 07:49]
+     :END:
+5
+***** Answser
+
+使用“@/!”
+
+*** 状态切换的快捷键                                                  :drill:
+    SCHEDULED: <2016-11-19 六>
+    :PROPERTIES:
+    :ID:       96c1f2ac-e4c7-4584-83e3-d14de6c39127
+    :DRILL_LAST_INTERVAL: 11.1407
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.7
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 07:50]
+    :END:
+6
+**** Answser
+
+C-c C-t
+
+*** 如何跟踪子任务完成度                                              :drill:
+    SCHEDULED: <2016-11-17 四>
+    :PROPERTIES:
+    :ID:       e3f7fb89-d620-42e5-9701-bd28eee1caef
+    :DRILL_LAST_INTERVAL: 9.43
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 07:49]
+    :END:
+7
+**** Answser
+
+在父任务任意位置插入[%]或[/]
+
+*** 如何支持[ ]开头的任务列表                                         :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       bd1e85f1-5928-4375-8939-713adb564f0f
+    :DRILL_LAST_INTERVAL: 4.0
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 4
+    :DRILL_FAILURE_COUNT: 2
+    :DRILL_AVERAGE_QUALITY: 2.5
+    :DRILL_EASE: 2.5
+    :DRILL_LAST_QUALITY: 4
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 07:52]
+    :END:
+8
+**** Answser
+
+- [ ]开头的任务，并在父任务后插入 [/]
+使用C-c C-c改变[ ]的状态
+
+*** 如何查询任务                                                      :drill:
+    SCHEDULED: <2016-11-18 五>
+    :PROPERTIES:
+    :ID:       49bc7abc-5b0e-4b1f-9c74-3f9a372dc7f2
+    :DRILL_LAST_INTERVAL: 10.3873
+    :DRILL_REPEATS_SINCE_FAIL: 3
+    :DRILL_TOTAL_REPEATS: 2
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 4.0
+    :DRILL_EASE: 2.46
+    :DRILL_LAST_QUALITY: 3
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 07:51]
+    :END:
+9
+**** Answser
+
+C-c /
+
+*** 如何设置任务的优先级                                              :drill:
+    SCHEDULED: <2016-11-11 五>
+    :PROPERTIES:
+    :ID:       2fed6f22-145f-4e3f-bee1-27e655921304
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-11-07 一 10:27]
+    :END:
+
+10
+**** Answer
+
+C-c ,
+
+*** 快捷键调整任务优先级                                              :drill:
+    SCHEDULED: <2016-11-12 六>
+    :PROPERTIES:
+    :ID:       b50d4389-672b-4a4e-9423-6f71dcd6c0a1
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-11-08 二 07:52]
+    :END:
+
+11
+**** Answer
+
+Shift-Up/Down
+
+*** 如何移动任务顺序                                                  :drill:
+    SCHEDULED: <2016-11-11 五>
+    :PROPERTIES:
+    :ID:       2218fffd-1cd0-43f4-b662-6261cc1ce2cc
+    :DRILL_LAST_INTERVAL: 4.14
+    :DRILL_REPEATS_SINCE_FAIL: 2
+    :DRILL_TOTAL_REPEATS: 1
+    :DRILL_FAILURE_COUNT: 0
+    :DRILL_AVERAGE_QUALITY: 5.0
+    :DRILL_EASE: 2.6
+    :DRILL_LAST_QUALITY: 5
+    :DRILL_LAST_REVIEWED: [2016-11-07 一 10:27]
+    :END:
+
+12
+**** Answer
+
+Alt-Up/Down
+
+*** 如何自定义tag                                                     :drill:
+
+13
+**** Answer
+
+文件开头加入#+TAGS: @work(w)，需要重新加载一次文件，使生效
+
+*** 如何查找tag                                                       :drill:
+
+14
+**** Answer
+
+C-c / m
+
+*** 如何将org文件加入agenda file中                                    :drill:
+
+15
+**** Answer
+
+C-c [
+
+*** 如何查看所有todo的任务                                            :drill:
+
+16
+**** Answer
+
+C-c a t
+
+*** 开启错误调试模式                                                  :drill:
+出错后可打印backtrace
+
+**** Answer
+toggle-debug-on-error
+
+**** note
+tt
+
+
