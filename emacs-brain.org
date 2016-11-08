@@ -266,3 +266,14 @@ toggle-debug-on-error
 tt
 
 
+* compile
+*** 怎样做代码的静态检查                                              :drill:
+clang
+
+**** Answer
+scan-build
+
+**** note
+scan-build -o memleak gcc test.c -o m
+
+
