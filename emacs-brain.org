@@ -326,6 +326,15 @@ toggle-debug-on-error
 **** note
 tt
 
+*** 如何插入一段文本或代码                                            :drill:
+
+如题
+**** Answer
+<s/e/q tab
+
+**** note
+
+
 
 * compile
 *** 怎样做代码的静态检查                                              :drill:
@@ -448,6 +457,17 @@ Makefile如何打印信息及错误终止
 **** Answer
 $(warning xxxx)
 $(error stoping)
+
+**** note
+
+
+* emacs operation
+
+*** 如何高亮一个单词                                                  :drill:
+
+高亮一个单词
+**** Answer
+M-m s h
 
 **** note
 
